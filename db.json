@@ -1,14 +1,170 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "progudts": {
+    "dog": [
+      {
+        "id": 201,
+        "name": "Nulla",
+        "price": 207,
+        "category": "dog",
+        "rate": 2.44,
+        "content": "Culpa sed tenetur incidunt quia veniam sed mollitia exercitationem. Laboriosam reprehenderit laborum pariatur ea rem qui inventore. In asperiores dignissimos temporibus et. Beatae consequatur corrupti nam praesentium.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-adult-roasted-chicken-rice-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=273c6349_0"
+      },
+      {
+        "id": 202,
+        "name": "Corporis",
+        "price": 271,
+        "category": "dog",
+        "rate": 2.18,
+        "content": "Nam incidunt blanditiis odio inventore. Nobis voluptatum quibusdam laboriosam a numquam. Delectus sequi ipsa possimus ratione repellendus quibusdam. Molestiae fuga laudantium natus dolorem.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-small-dog-grilled-steak-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=d63e6349_0"
+      },
+      {
+        "id": 203,
+        "name": "Minus",
+        "price": 295,
+        "category": "dog",
+        "rate": 0.91,
+        "content": "Quod reiciendis aspernatur ipsum cum debitis. Quisquam tempore doloremque quo ipsum ipsa tempora. Dignissimos qui ex ad facilis. Quo sequi recusandae eveniet autem ducimus nam.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-small-dog-grilled-steak-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=d63e6349_0"
+      },
+      {
+        "id": 204,
+        "name": "Qui",
+        "price": 280,
+        "category": "dog",
+        "rate": 3.11,
+        "content": "Occaecati dolore assumenda facilis error quaerat. Rem harum alias cum eum quam corporis. Esse numquam vero facilis labore.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-small-dog-grilled-steak-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=d63e6349_0"
+      },
+      {
+        "id": 205,
+        "name": "Blanditiis",
+        "price": 138,
+        "category": "dog",
+        "rate": 2.42,
+        "content": "Reiciendis dolorum debitis occaecati assumenda totam ex. Ullam iure dolore excepturi unde in libero modi molestiae. Voluptate labore aliquid dignissimos omnis cum eligendi id. Sint repudiandae magni cum dolore itaque esse porro.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-adult-roasted-chicken-rice-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=273c6349_0"
+      },
+      {
+        "id": 206,
+        "name": "Est",
+        "price": 296,
+        "category": "dog",
+        "rate": 4.32,
+        "content": "Aut consequatur fugit ut voluptates fugit numquam vero velit. Distinctio minima quo nesciunt maiores voluptatem dolorum. Doloribus quam nisi molestiae nostrum iure sint debitis.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-dry-dog-food-adult-roasted-chicken-rice-vegetable-flavor-front.tmb-400max.jpg?sfvrsn=273c6349_0"
+      },
+      {
+        "id": 207,
+        "name": "Incidunt",
+        "price": 183,
+        "category": "dog",
+        "rate": 4.19,
+        "content": "Nam aperiam rem atque ut eius molestiae ex omnis. Ex consequatur ipsam quaerat nam provident. Maiores quae consectetur soluta voluptatum. Ut ipsa est facilis.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-tender-bites-chicken-steak-front22b00c8ea3f66930bcd1ff28004ce6f7.tmb-400max.png?sfvrsn=45466549_0"
+      },
+      {
+        "id": 208,
+        "name": "Ratione",
+        "price": 104,
+        "category": "dog",
+        "rate": 4.64,
+        "content": "Occaecati nam laudantium est quos. Fuga molestias facere consequatur sapiente cum reprehenderit quibusdam. Earum omnis ipsum numquam facilis perspiciatis architecto. Iste reiciendis minus distinctio corrupti eos. Excepturi ut sequi id blanditiis exercitationem.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-tender-bites-chicken-steak-front22b00c8ea3f66930bcd1ff28004ce6f7.tmb-400max.png?sfvrsn=45466549_0"
+      },
+      {
+        "id": 209,
+        "name": "Similique",
+        "price": 262,
+        "category": "dog",
+        "rate": 0.29,
+        "content": "Autem blanditiis similique saepe excepturi at error. Fugit qui accusantium expedita. Illo similique suscipit sunt magni eos est.",
+        "imageUrl": "https://www.pedigree.com/images/default-source/products/dry/pedigree-tender-bites-chicken-steak-front22b00c8ea3f66930bcd1ff28004ce6f7.tmb-400max.png?sfvrsn=45466549_0"
+      }
+    ],
+    "cat": [
+      {
+        "id": 211,
+        "name": "Modi",
+        "price": 228,
+        "category": "cat",
+        "rate": 2.94,
+        "content": "Iure similique perferendis quia optio provident asperiores ad. Perferendis id voluptatibus impedit. Rerum totam quam distinctio eligendi omnis id cumque voluptatem. Et qui odio atque voluptatibus consectetur vel aut. Qui voluptatem deleniti laboriosam nulla temporibus.",
+        "imageUrl": "https://www.petwarehouse.ph/15595-thickbox_default/discounted-cuties-catz-tuna-flavor-22kg-cat-dry-food.jpg"
+      },
+      {
+        "id": 212,
+        "name": "Voluptatibus",
+        "price": 172,
+        "category": "cat",
+        "rate": 2.68,
+        "content": "Cum aperiam sapiente non magni sequi facere. Et nihil soluta illum ipsum fuga vero. Magnam nihil quasi illo laudantium pariatur dignissimos. Est officiis quidem fuga dolorem.",
+        "imageUrl": "https://www.petwarehouse.ph/15618-thickbox_default/ciao-chicken-fillet-scallop-in-jelly-85g-cat-wet-food-c-21-clearance.jpg"
+      },
+      {
+        "id": 213,
+        "name": "Sapiente",
+        "price": 100,
+        "category": "cat",
+        "rate": 1.89,
+        "content": "Totam repudiandae assumenda facilis quod suscipit repellat delectus eligendi. Nihil repellendus officiis officia distinctio aperiam dolorem veritatis culpa. Ab natus doloremque alias dolores deleniti a accusamus.",
+        "imageUrl": "https://www.petwarehouse.ph/15618-thickbox_default/ciao-chicken-fillet-scallop-in-jelly-85g-cat-wet-food-c-21-clearance.jpg"
+      },
+      {
+        "id": 214,
+        "name": "Alias",
+        "price": 152,
+        "category": "cat",
+        "rate": 0.17,
+        "content": "At non doloribus alias optio delectus sit. Aperiam officiis soluta molestias asperiores similique reiciendis pariatur. Ab dignissimos iure voluptates error temporibus. Velit ullam quod fugiat molestias nisi explicabo blanditiis.",
+        "imageUrl": "https://www.petwarehouse.ph/15595-thickbox_default/discounted-cuties-catz-tuna-flavor-22kg-cat-dry-food.jpg"
+      },
+      {
+        "id": 215,
+        "name": "Non",
+        "price": 189,
+        "category": "cat",
+        "rate": 3.51,
+        "content": "Eligendi rem perspiciatis quas accusamus. Consequatur perferendis placeat qui deleniti amet commodi harum reprehenderit. At quibusdam harum numquam quo.",
+        "imageUrl": "https://www.petwarehouse.ph/15618-thickbox_default/ciao-chicken-fillet-scallop-in-jelly-85g-cat-wet-food-c-21-clearance.jpg"
+      },
+      {
+        "id": 216,
+        "name": "Quaerat",
+        "price": 280,
+        "category": "cat",
+        "rate": 0.81,
+        "content": "Nisi eos aspernatur exercitationem eius architecto dignissimos. Nam recusandae repellat saepe hic.",
+        "imageUrl": "https://www.petwarehouse.ph/633-thickbox_default/petag-kmr-powder-340g-kitten-milk-replacer.jpg"
+      },
+      {
+        "id": 217,
+        "name": "Odit",
+        "price": 238,
+        "category": "cat",
+        "rate": 2.35,
+        "content": "Beatae voluptatem soluta maxime non dignissimos. Doloribus asperiores dicta iusto itaque vel quos.",
+        "imageUrl": "https://www.petwarehouse.ph/15595-thickbox_default/discounted-cuties-catz-tuna-flavor-22kg-cat-dry-food.jpg"
+      },
+      {
+        "id": 218,
+        "name": "Quibusdam",
+        "price": 100,
+        "category": "cat",
+        "rate": 3.44,
+        "content": "Consectetur nihil inventore ut delectus. Soluta eius soluta nisi eius. Accusantium atque impedit consectetur odio ea omnis.",
+        "imageUrl": "https://www.petwarehouse.ph/633-thickbox_default/petag-kmr-powder-340g-kitten-milk-replacer.jpg"
+      },
+      {
+        "id": 219,
+        "name": "Velit",
+        "price": 130,
+        "category": "cat",
+        "rate": 3.27,
+        "content": "Sint quibusdam ratione eos. Alias accusantium fugit eum dolores aliquid eum. Odit repellendus molestias veniam inventore earum.",
+        "imageUrl": "https://www.petwarehouse.ph/633-thickbox_default/petag-kmr-powder-340g-kitten-milk-replacer.jpg"
+      }
+    ]
   }
 }
